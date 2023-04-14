@@ -6,7 +6,7 @@
 
 body {
   margin: 0px;font-family:system-ui;
-  background: #7ac97a url(../docs/leafy-bg.jpg) center no-repeat;
+  background: #7ac97a url(assets/leafy-bg.jpg) center no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: center center;
@@ -99,7 +99,7 @@ body {
     position: absolute;
     display: block;
     width: 100%;
-    background: #7ac97a url(../docs/leafy-bg.jpg) center no-repeat;
+    background: #7ac97a url(assets/leafy-bg.jpg) center no-repeat;
     background-size: cover;
     height: 0px;
     transition: all 0.3s ease-in;
