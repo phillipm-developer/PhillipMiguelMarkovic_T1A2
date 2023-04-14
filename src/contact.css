@@ -1,0 +1,78 @@
+
+/* Contact main component styles */
+
+.contact-main {
+    margin: 25px 20px 80px 20px;
+    text-align: left;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    background: rgba(51, 170, 51, .5);
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 25px;
+    border: 1px solid #ececec;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: orange;
+    font-size: 50px;
+}
+
+.contact-list {
+    list-style: none;
+    font-size: 3em;
+    color: orange;
+}
+
+p, .contact-list {
+    margin: 10px;
+}
+
+img {
+    padding-right: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.icon {
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+.phone-number {
+    color: white;
+}
+
+.contact-item > a, .icon, span {
+    color: white;
+}
+
+.contact-item:hover {
+    background: none;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+@media (max-width:600px) {
+    header {
+        font-size: 35px;
+    }
+}
+

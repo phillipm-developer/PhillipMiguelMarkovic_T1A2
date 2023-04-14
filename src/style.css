@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
+
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+body main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content component */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #7ac97a url(../docs/leafy-bg.jpg) center no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+
+
+/* Social Links Component */
+
+#social-links {
+    background: #008a00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#social-links p {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+#social-links nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#social-links div > nav > a:hover {
+    background: none;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+/* Footer Component */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #7ac97a;
+}
+
+footer p {
+    /*font-family: 'Bree-serif', 'Times New Roman', Times, serif;*/
+    font-size: 1.25rem;
+}
+
+/* Combines Social Links Bar with Footer so I can anchor them together at the base of the viewport */
+#combined-footer {
+    margin-top: auto;
+}
+
