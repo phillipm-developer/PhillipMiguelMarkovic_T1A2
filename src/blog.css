@@ -8,7 +8,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background: #7ac97a url(../docs/leafy-bg.jpg) center no-repeat;
+    background: #7ac97a url(assets/leafy-bg.jpg) center no-repeat;
     background-size: cover;
     color: white;
 }
@@ -21,7 +21,7 @@ main {
     flex-direction: column;
     padding: 40px;
     border-bottom: 1px solid rgba(0,0,0,0.05);
-    background: #7ac97a url(../docs/leafy-bg.jpg) center no-repeat;
+    background: #7ac97a url(assets/leafy-bg.jpg) center no-repeat;
     background-size: cover;
 }
 

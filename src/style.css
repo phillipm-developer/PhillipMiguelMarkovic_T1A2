@@ -23,7 +23,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #7ac97a url(../docs/leafy-bg.jpg) center no-repeat;
+    background: #7ac97a url(assets/leafy-bg.jpg) center no-repeat;
     background-size: cover;
     color: white;
     width: 100%;
