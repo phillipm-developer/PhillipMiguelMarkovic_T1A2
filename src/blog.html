@@ -6,35 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
 
+    <!-- Fonts & icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Style imports -->
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="blog.css">    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- This component is the navigation bar in the header -->
     <header>
-        <div class="nav">
-            <input type="checkbox" id="nav-check">
+        <section class="nav">
+            <input type="checkbox" id="nav-checkbox">
 
-            <div class="nav-header">
+            <!-- This is the logo to the left on the navbar -->
+            <section class="nav-header">
                 <nav class="nav-title">
                     <a href="index.html" class="logo">PM</a>
                 </nav>
-            </div>
+            </section>
 
             <!-- Creates a navigation button -->
-            <div class="nav-btn">
-                <label for="nav-check">
+            <section class="nav-button">
+                <label for="nav-checkbox">
                     <!-- The 3 <span> elements allow for the display of 3 bars in top right corner -->
                     <span></span>
                     <span></span>
                     <span></span>
                 </label>
-            </div>
+            </section>
             
+            <!-- These are all the menu options. New menu options can be added here. -->
             <nav class="nav-links">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -42,7 +46,7 @@
                 <a href="blog.html">Blog</a>
                 <a href="contact.html">Contact</a>
             </nav>
-        </div>
+        </section>
     </header>
 
       <main>
@@ -50,24 +54,24 @@
         <section id="blog">
 
             <!--heading-->
-            <div class="blog-heading">
+            <section class="blog-heading">
                 <h3>My Blog</h3>
                 <span>(I like Bonsai trees)</span>
-            </div>
+            </section>
 
             <!-- blog container -->
-            <div class="blog-container">
+            <section class="blog-container">
 
                 <!--box-1-->
-                <div class="blog-box">
+                <article class="blog-box">
 
                     <!--img-->
-                    <div class="blog-img">
-                        <a href="blog-page-1.html"><img src="assets/ai-bonsai-1.jpeg" alt="Blog"></a>
-                    </div>
+                    <section class="blog-img">
+                        <a href="blog-page-1.html"><img src="assets/ai-bonsai-1.jpeg" alt="Bonsai Tree Pic - Click here"></a>
+                    </section>
 
                     <!--text-->
-                    <div class="blog-text">
+                    <section class="blog-text">
                         <span>March 02 2023 / Bonsai Empire</span>
                         <a href="blog-page-1.html" class="blog-title">AI generated Bonsai</a>
 
@@ -75,113 +79,114 @@
                         </p>
 
                         <a href="blog-page-1.html">Read More</a>
-                    </div>
-                </div>
+                    </section>
+                </article>
 
                 <!--box-2-->
-                <div class="blog-box">
+                <article class="blog-box">
 
                     <!--img-->
-                    <div class="blog-img">
-                        <a href="blog-page-2.html"><img src="assets/ai-bonsai-2.jpeg" alt="Blog"></a>
-                    </div>
+                    <section class="blog-img">
+                        <a href="blog-page-2.html"><img src="assets/ai-bonsai-2.jpeg" alt="Bonsai Tree Pic - Click here"></a>
+                    </section>
 
                     <!--text-->
-                    <div class="blog-text">
+                    <section class="blog-text">
                         <span>January 13 2023 / Bonsai Empire</span>
                         <a href="blog-page-2.html" class="blog-title">Best Bonsai trees for Beginners</a>
 
                         <p>When selecting your first Bonsai tree, it is crucial to pick the right tree species. Tropical and sub-tropical tree species can be kept indoors, whereas temperate trees can only be grown outdoors.</p>
                         <a href="blog-page-2.html">Read More</a>
-                    </div>
-                </div>
+                    </section>
+                </article>
 
                 <!--box-3-->
-                <div class="blog-box">
+                <article class="blog-box">
 
                     <!--img-->
-                    <div class="blog-img">
-                        <a href="blog-page-3.html"><img src="assets/ai-bonsai-3.jpeg" alt="Blog"></a>
-                    </div>
+                    <section class="blog-img">
+                        <a href="blog-page-3.html"><img src="assets/ai-bonsai-3.jpeg" alt="Bonsai Tree Pic - Click here"></a>
+                    </section>
 
                     <!--text-->
-                    <div class="blog-text">
+                    <section class="blog-text">
                         <span>December 02 2022 / Bonsai Empire</span>
                         <a href="blog-page-3.html" class="blog-title">Grow Lights for Bonsai Trees</a>
 
                         <p>In this article we explain the potential benefits of using grow lights for your indoor Bonsai, and we help you pick the right setup. But first, let’s investigate the importance of light for different types of plants.</p>
                         <a href="blog-page-3.html">Read More</a>
-                    </div>
-                </div>
+                    </section>
+                </article>
 
                 <!--box-4-->
-                <div class="blog-box">
+                <article class="blog-box">
 
                     <!--img-->
-                    <div class="blog-img">
-                        <a href="blog-page-4.html"><img src="assets/ai-bonsai-4.jpeg" alt="Blog"></a>
-                    </div>
+                    <section class="blog-img">
+                        <a href="blog-page-4.html"><img src="assets/ai-bonsai-4.jpeg" alt="Bonsai Tree Pic - Click here"></a>
+                    </section>
 
                     <!--text-->
-                    <div class="blog-text">
+                    <section class="blog-text">
                         <span>August 14 2022 / Bonsai Empire</span>
                         <a href="blog-page-4.html" class="blog-title">Caring for a Bonsai during a Heatwave</a>
 
                         <p>When temperatures are high, some of our Bonsai need extra care. We provide as much shadow as possible and water carefully, but there is more you can do to protect your trees during heatwaves.</p>
                         <a href="blog-page-4.html">Read More</a>
-                    </div>
-                </div>
+                    </section>
+                </article>
 
                 <!--box-5-->
-                <div class="blog-box">
+                <article class="blog-box">
 
                     <!--img-->
-                    <div class="blog-img">
-                        <a href="blog-page-5.html"><img src="assets/ai-bonsai-5.jpeg" alt="Blog"></a>
-                    </div>
+                    <section class="blog-img">
+                        <a href="blog-page-5.html"><img src="assets/ai-bonsai-5.jpeg" alt="Bonsai Tree Pic - Click here"></a>
+                    </section>
 
                     <!--text-->
-                    <div class="blog-text">
+                    <section class="blog-text">
                         <span>July 07 2022 / Bonsai Empire</span>
                         <a href="blog-page-5.html" class="blog-title">Bonsai on the Cheap</a>
 
                         <p>Bonsai trees can be very expensive. As a rule of thumb, the higher the age and the more impressive the trunk - the more expensive a Bonsai gets. In this article we'll share some projects with cheaper Bonsai material, working with nursery stock plants.
                         </p>
                         <a href="blog-page-5.html">Read More</a>
-                    </div>
-                </div>
+                    </section>
+                </article>
 
                 <!--box-6-->
-                <div class="blog-box">
+                <article class="blog-box">
 
                     <!--img-->
-                    <div class="blog-img">
-                        <a href="blog-page-6.html"><img src="assets/ai-bonsai-6.jpeg" alt="Blog"></a>
-                    </div>
+                    <section class="blog-img">
+                        <a href="blog-page-6.html"><img src="assets/ai-bonsai-6.jpeg" alt="Bonsai Tree Pic - Click here"></a>
+                    </section>
 
                     <!--text-->
-                    <div class="blog-text">
+                    <section class="blog-text">
                         <span>July 20 2021 / Bonsai Empire</span>
                         <a href="blog-page-6.html" class="blog-title">Wire Bonsai sculptures</a>
 
                         <p>Bonsai wire sculptures have been around for a very long time but their recent surge in popularity is largely due social media. Artists and craftsmen all over the world are making and sharing stunning examples of their work online.
                         </p>
                         <a href="blog-page-6.html">Read More</a>
-                    </div>
-                </div>
+                    </section>
+                </article>
                 
-            </div>
+            </section>
 
         </section>
 
       </main>
 
 
+    <!-- This can be considered the footer -->
     <section id="combined-footer">
         <!-- Full width section, above footer -->
         <section id="social-links">
             <!-- Layout container -->
-            <div>
+            <section>
                 <p>Don't be a stranger. Reach out on one of these!</p>
                 <nav>
                     <a href="https://www.facebook.com"><img src="assets/facebook.svg" alt="Facebook" /></a>
@@ -189,7 +194,7 @@
                     <a href="https://www.instagram.com/"><img src="assets/instagram.svg" alt="Instagram" /></a>
                     <a href="https://au.linkedin.com/"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
                 </nav>
-            </div>
+            </section>
         </section>
 
         <!-- Footer -->

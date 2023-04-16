@@ -6,35 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
 
+    <!-- Fonts & icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Style imports -->
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="home.css">    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- This component is the navigation bar in the header -->
     <header>
-        <div class="nav">
-            <input type="checkbox" id="nav-check">
+        <section class="nav">
+            <input type="checkbox" id="nav-checkbox">
 
-            <div class="nav-header">
+            <!-- This is the logo to the left on the navbar -->
+            <section class="nav-header">
                 <nav class="nav-title">
                     <a href="index.html" class="logo">PM</a>
                 </nav>
-            </div>
+            </section>
 
             <!-- Creates a navigation button -->
-            <div class="nav-btn">
-                <label for="nav-check">
+            <section class="nav-button">
+                <label for="nav-checkbox">
                     <!-- The 3 <span> elements allow for the display of 3 bars in top right corner -->
                     <span></span>
                     <span></span>
                     <span></span>
                 </label>
-            </div>
+            </section>
             
+            <!-- These are all the menu options. New menu options can be added here. -->
             <nav class="nav-links">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -42,36 +46,34 @@
                 <a href="blog.html">Blog</a>
                 <a href="contact.html">Contact</a>
             </nav>
-        </div>
+        </section>
     </header>
 
+    <!-- This is the main content section -->
     <main>
         <section class="home-main">
             <article>
-                
-                <header>
+                <header class="main-heading">
                     <h2>Hi I'm Phillip Markovic. Welcome to my homepage!</h2>
                 </header>
 
                 <figure>
-                    <img src="assets/IMG_2887.JPG" alt="Photo of Phillip Markovic">
+                    <img src="assets/IMG_2887.JPG" alt="Image of Phillip Markovic">
                 </figure>
-
 
                 <p>
                     This is my personal homepage. I am a former IT professional with a diverse work background. I am currently doing a Diploma in Information Technology with Coder Academy with a view to getting back into the industry. I wish to specialise as a Full Stack Web Developer and learn how to create large commercial online systems. Please feel free to to browse my site!
                 </p>
-
             </article>
         </section>
-
     </main>
 
+    <!-- This can be considered the footer -->
     <section id="combined-footer">
         <!-- Full width section, above footer -->
         <section id="social-links">
             <!-- Layout container -->
-            <div>
+            <section>
                 <p>Don't be a stranger. Reach out on one of these!</p>
                 <nav>
                     <a href="https://www.facebook.com"><img src="assets/facebook.svg" alt="Facebook" /></a>
@@ -79,7 +81,7 @@
                     <a href="https://www.instagram.com/"><img src="assets/instagram.svg" alt="Instagram" /></a>
                     <a href="https://au.linkedin.com/"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
                 </nav>
-            </div>
+            </section>
         </section>
 
         <!-- Footer -->

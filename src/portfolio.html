@@ -6,35 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
+    <!-- Fonts & icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Style imports -->
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="portfolio.css">    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- This component is the navigation bar in the header -->
     <header>
-        <div class="nav">
-            <input type="checkbox" id="nav-check">
+        <section class="nav">
+            <input type="checkbox" id="nav-checkbox">
 
-            <div class="nav-header">
+            <!-- This is the logo to the left on the navbar -->
+            <section class="nav-header">
                 <nav class="nav-title">
                     <a href="index.html" class="logo">PM</a>
                 </nav>
-            </div>
+            </section>
 
             <!-- Creates a navigation button -->
-            <div class="nav-btn">
-                <label for="nav-check">
+            <section class="nav-button">
+                <label for="nav-checkbox">
                     <!-- The 3 <span> elements allow for the display of 3 bars in top right corner -->
                     <span></span>
                     <span></span>
                     <span></span>
                 </label>
-            </div>
+            </section>
             
+            <!-- These are all the menu options. New menu options can be added here. -->
             <nav class="nav-links">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -42,7 +46,7 @@
                 <a href="blog.html">Blog</a>
                 <a href="contact.html">Contact</a>
             </nav>
-        </div>
+        </section>
     </header>
       
     <!-- Main body content -->
@@ -50,79 +54,80 @@
         <h2 class="portfolio-title">This is a showcase of my work!</h2>
         <article class="portfolio-pics">
 
-            <div class="portfolio-item">
-                <div class="portfolio-item-image">
+            <section class="portfolio-item">
+                <section class="portfolio-item-image">
                     <a href="https://www.petbarn.com.au/">
-                        <img class="image-size" src="assets/cat3.jpg" alt="" />
+                        <img class="image-size" src="assets/cat3.jpg" alt="Image of grey cat" />
                     </a>
-                </div>
-                <div class="portfolio-item-name">
+                </section>
+                <section class="portfolio-item-name">
                     <a href="https://www.petbarn.com.au/">Petbarn</a>
-                </div>
-            </div>
+                </section>
+            </section>
 
-            <div class="portfolio-item">
-                <div class="portfolio-item-image">
+            <section class="portfolio-item">
+                <section class="portfolio-item-image">
                     <a href="https://www.flowerpower.com.au">
-                        <img class="image-size" src="assets/Bougainvillea-540x340.jpg" alt="" />
+                        <img class="image-size" src="assets/Bougainvillea-540x340.jpg" alt="Image of Bougainvillea" />
                     </a>
-                </div>
-                <div class="portfolio-item-name">
+                </section>
+                <section class="portfolio-item-name">
                     <a href="https://www.flowerpower.com.au">Flower Power</a>
-                </div>
-            </div>
+                </section>
+            </section>
 
-            <div class="portfolio-item">
-                <div class="portfolio-item-image">
+            <section class="portfolio-item">
+                <section class="portfolio-item-image">
                     <a href="https://www.raftingaustralia.com.au/">
-                        <img class="image-size" src="assets/nature-scene.jpg" alt="" />
+                        <img class="image-size" src="assets/nature-scene.jpg" alt="Image of river" />
                     </a>
-                </div>
-                <div class="portfolio-item-name">
+                </section>
+                <section class="portfolio-item-name">
                     <a href="https://www.raftingaustralia.com.au/">White Water Rafting Adventures</a>
-                </div>
-            </div>
+                </section>
+            </section>
 
-            <div class="portfolio-item">
-                <div class="portfolio-item-image">
+            <section class="portfolio-item">
+                <section class="portfolio-item-image">
                     <a href="https://www.holidayinthewhitsundays.com/">
-                        <img class="image-size" src="assets/sunset-in-harbor.jpg" alt="" />
+                        <img class="image-size" src="assets/sunset-in-harbor.jpg" alt="Sunset in a harbour" />
                     </a>
-                </div>
-                <div class="portfolio-item-name">
+                </section>
+                <section class="portfolio-item-name">
                     <a href="https://www.holidayinthewhitsundays.com/">Holiday in the Whitsundays</a>
-                </div>
-            </div>
+                </section>
+            </section>
 
-            <div class="portfolio-item">
-                <div class="portfolio-item-image">
+            <section class="portfolio-item">
+                <section class="portfolio-item-image">
                     <a href="https://aussiegardener.com.au/">
-                        <img class="image-size" src="assets/Grevillea-Robyn-Gordon-favourites-540x340-V2.jpg" alt="" />
+                        <img class="image-size" src="assets/Grevillea-Robyn-Gordon-favourites-540x340-V2.jpg" alt="Red coloured plant" />
                     </a>
-                </div>
-                <div class="portfolio-item-name">
+                </section>
+                <section class="portfolio-item-name">
                     <a href="https://aussiegardener.com.au/">Aussie Gardener Store</a>
-                </div>
-            </div>
+                </section>
+            </section>
 
-            <div class="portfolio-item">
-                <div class="portfolio-item-image">
+            <section class="portfolio-item">
+                <section class="portfolio-item-image">
                     <a href="https://www.gardeningaustralia.com.au/">
-                        <img class="image-size" src="assets/Yellow-kangaroo-paw-540x340.jpg" alt="" />
+                        <img class="image-size" src="assets/Yellow-kangaroo-paw-540x340.jpg" alt="Yellow Kangaroo Paw plant" />
                     </a>
-                </div>
-                <div class="portfolio-item-name">
+                </section>
+                <section class="portfolio-item-name">
                     <a href="https://www.gardeningaustralia.com.au/">Gardening Australia Magazine</a>
-                </div>
-            </div>
+                </section>
+            </section>
         </article>
     </main>
 
+    <!-- This can be considered the footer -->
     <section id="combined-footer">
         <!-- Full width section, above footer -->
         <section id="social-links">
             <!-- Layout container -->
-            <div>
+            <section>
                 <p>Don't be a stranger. Reach out on one of these!</p>
                 <nav>
                     <a href="https://www.facebook.com"><img src="assets/facebook.svg" alt="Facebook" /></a>
@@ -130,7 +135,7 @@
                     <a href="https://www.instagram.com/"><img src="assets/instagram.svg" alt="Instagram" /></a>
                     <a href="https://au.linkedin.com/"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
                 </nav>
-            </div>
+            </section>
         </section>
 
         <!-- Footer -->

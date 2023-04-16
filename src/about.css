@@ -1,4 +1,6 @@
 
+/* Styles for <main> content of 'about' page*/
+
 .about-main {
     margin: 25px 20px 80px 20px;
     text-align: left;
@@ -12,7 +14,6 @@
 article {
     display: flex;
     flex-direction: column;
-    /*background-color: green;*/
     background: rgba(51, 170, 51, .5);
     margin: 10px;
     padding: 10px;

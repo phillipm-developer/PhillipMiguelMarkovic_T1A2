@@ -1,5 +1,5 @@
 
-/* Contact main component styles */
+/* Styles for <main> content of 'contact' page*/
 
 .contact-main {
     margin: 25px 20px 80px 20px;
@@ -22,7 +22,7 @@ article {
     border: 1px solid #ececec;
 }
 
-header {
+.contact-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,7 +71,7 @@ span {
 }
 
 @media (max-width:600px) {
-    header {
+    .contact-heading {
         font-size: 35px;
     }
 }

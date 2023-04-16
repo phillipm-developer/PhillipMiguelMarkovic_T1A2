@@ -11,13 +11,14 @@
     font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
+/* Used to anchor social media bar & copyright bar to bottom */
 body main {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-/* Main content component */
+/* Main content component. Shared by all main content. */
 
 main {
     display: flex;
@@ -52,7 +53,7 @@ main {
     justify-content: space-between;
 }
 
-#social-links div > nav > a:hover {
+#social-links section > nav > a:hover {
     background: none;
     opacity: 0.5;
     transition: 0.5s;
@@ -67,7 +68,6 @@ footer {
 }
 
 footer p {
-    /*font-family: 'Bree-serif', 'Times New Roman', Times, serif;*/
     font-size: 1.25rem;
 }
 

@@ -6,35 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 
+    <!-- Fonts & icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Style imports -->
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact.css">    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- This component is the navigation bar in the header -->
-    <section>
-        <div class="nav">
-            <input type="checkbox" id="nav-check">
+    <header>
+        <section class="nav">
+            <input type="checkbox" id="nav-checkbox">
 
-            <div class="nav-header">
+            <!-- This is the logo to the left on the navbar -->
+            <section class="nav-header">
                 <nav class="nav-title">
                     <a href="index.html" class="logo">PM</a>
                 </nav>
-            </div>
+            </section>
 
             <!-- Creates a navigation button -->
-            <div class="nav-btn">
-                <label for="nav-check">
+            <section class="nav-button">
+                <label for="nav-checkbox">
                     <!-- The 3 <span> elements allow for the display of 3 bars in top right corner -->
                     <span></span>
                     <span></span>
                     <span></span>
                 </label>
-            </div>
+            </section>
             
+            <!-- These are all the menu options. New menu options can be added here. -->
             <nav class="nav-links">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -42,74 +46,86 @@
                 <a href="blog.html">Blog</a>
                 <a href="contact.html">Contact</a>
             </nav>
-        </div>
-    </section>
+        </section>
+    </header>
 
     <main>
         <section class="contact-main">
             <article>
-                <header>
-                    <h2>Get In Touch<h2>
-                </header>
+                <section class="contact-heading">
+                   <h2>Get In Touch<h2>
+                </section>
 
-                <ul class="contact-list">
-                    <li class="phone-number">
-                        <p>
-                            <i class="fa-solid fa-phone "></i>
-                            <span>(02) 9661-8456</span>
-                        </p>
-                    </li>
+                <nav>
+                    <ul class="contact-list">
+                        <li class="phone-number">
+                            <p>
+                                <i class="fa-solid fa-phone "></i>
+                                <span>(02) 9661-8456</span>
+                            </p>
+                        </li>
 
-                    <li class="contact-item">
-                        <p>
-                            <a href="mailto:phillipm@internode.on.net" target="_blank">
-                                <i class="fa-regular fa-envelope icon"></i>
-                                <span>Email</span>
+                        <li class="contact-item">
+                            <p>
+                                <a href="mailto:phillipm@internode.on.net" target="_blank">
+                                    <i class="fa-regular fa-envelope icon"></i>
+                                    <span>Email</span>
+                                </a>
+                            </p>
+                        </li>
+
+                        <li class="contact-item">
+                            <p>
+                                <a href="https://github.com/phillipm-developer/PhillipMiguelMarkovic_T1A2" target="_blank">
+                                    <i class="fa-brands fa-github-square icon"></i>
+                                    <span>GitHub</span>
+                                </a>
+                            </p>
+                        </li>
+
+                        <li class="contact-item">
+                            <p>
+                                <a href="https://www.facebook.com" target="_blank">
+                                    <i class="fa-brands fa-square-facebook icon"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </p>
+                        </li>
+
+                        <li class="contact-item">
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter icon"></i>
+                                <span>Twitter</span>
                             </a>
-                        </p>
-                    </li>
+                        </li>
 
-                    <li class="contact-item">
-                        <p>
-                            <a href="https://www.facebook.com" target="_blank">
-                                <i class="fa-brands fa-square-facebook icon"></i>
-                                <span>Facebook</span>
+                        <li class="contact-item">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-square-instagram icon"></i>
+                                <span>Instagram</span>
                             </a>
-                        </p>
-                    </li>
+                        </li>
 
-                    <li class="contact-item">
-                        <a href="https://twitter.com/" target="_blank">
-                            <i class="fa-brands fa-twitter icon"></i>
-                            <span>Twitter</span>
-                        </a>
-                    </li>
-
-                    <li class="contact-item">
-                        <a href="https://www.instagram.com/" target="_blank">
-                            <i class="fa-brands fa-square-instagram icon"></i>
-                            <span>Instagram</span>
-                        </a>
-                    </li>
-
-                    <li class="contact-item">
-                        <a href="https://au.linkedin.com/" target="_blank">
-                            <i class="fa-brands fa-linkedin icon"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                    </li>
-                </ul>
+                        <li class="contact-item">
+                            <a href="https://au.linkedin.com/" target="_blank">
+                                <i class="fa-brands fa-linkedin icon"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
 
             </article>
         </section>
 
     </main>
 
+    <!-- This can be considered the footer -->
     <section id="combined-footer">
         <!-- Full width section, above footer -->
         <section id="social-links">
             <!-- Layout container -->
-            <div>
+            <section>
                 <p>Don't be a stranger. Reach out on one of these!</p>
                 <nav>
                     <a href="https://www.facebook.com"><img src="assets/facebook.svg" alt="Facebook" /></a>
@@ -117,7 +133,7 @@
                     <a href="https://www.instagram.com/"><img src="assets/instagram.svg" alt="Instagram" /></a>
                     <a href="https://au.linkedin.com/"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
                 </nav>
-            </div>
+            </section>
         </section>
 
         <!-- Footer -->

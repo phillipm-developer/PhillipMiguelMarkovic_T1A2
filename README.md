@@ -74,50 +74,49 @@ The content I have produced is niche content. I have taken a consistent approach
 
 The following images are full screen captures of each page corresponding to the nodes in the sitemap. This means that you can see the full page from the top navigatiion bar to the footer (which you would normally scroll to see). These pages are displayed as pairs (one in full screen mode and one as a responsive mobile layout).
 
-## Homepage
-&nbsp;
-![Home Desktop](docs/scr_home.png)
-&nbsp;
-![Home Mobile](docs/scr_home_mobile.png)
-&nbsp;
-## About
-&nbsp;
-![About Desktop](docs/scr_about.png)
-&nbsp;
-![About Mobile](docs/scr_about_mobile.png)
-&nbsp;
+## Home Page (Desktop & Tablet)
+<img src="docs/scr_home.png" width="80%" alt="Home Page (Desktop & Tablet)">
+
+## Home Page (Mobile)
+<img src="docs/scr_home_mobile.png" width="50%" alt="Home Page (Mobile)">
+
+## About Page (Desktop & Tablet)
+<img src="docs/scr_about.png" width="80%" alt="About Page (Desktop & Tablet)">
+
+## About Page (Mobile)
+<img src="docs/scr_about_mobile.png" width="50%" alt="About Page (Mobile)">
+
 ## Resume
-&nbsp;
-![Resume PDF File](docs/scr_resume.png)
-&nbsp;
-## Portfolio
-&nbsp;
-![Portfolio Desktop](docs/scr_portfolio.png)
-&nbsp;
-![Portfolio Mobile](docs/scr_portfolio_mobile.png)
-&nbsp;
-## Blog
-&nbsp;
-![Blog Desktop](docs/scr_blog.png)
-&nbsp;
-![Blog Mobile](docs/scr_blog_mobile.png)
-&nbsp;
-## Blog Post
-&nbsp;
-![Blog Post Desktop](docs/scr_blog_post.png)
-&nbsp;
-![Blog Post Mobile](docs/scr_blog_post_mobile.png)
-&nbsp;
-## Contact
-&nbsp;
-![Contact Desktop](docs/scr_contact.png)
-&nbsp;
-![Contact Mobile](docs/scr_contact_mobile.png)
-&nbsp;
+<img src="docs/scr_resume.png" width="80%" alt="Resume">
+
+## Portfolio Page (Desktop & Tablet)
+<img src="docs/scr_portfolio.png" width="80%" alt="Portfolio Page (Desktop & Tablet)">
+
+## Portfolio Page (Mobile)
+<img src="docs/scr_portfolio_mobile.png" width="50%" alt="Portfolio Page (Mobile)">
+
+## Blog Page (Desktop & Tablet)
+<img src="docs/scr_blog.png" width="80%" alt="Blog Page (Desktop & Tablet)">
+
+## Blog Page (Mobile)
+<img src="docs/scr_blog_mobile.png" width="50%" alt="Blog Page (Mobile)">
+
+## Blog Post Page (Desktop & Tablet)
+<img src="docs/scr_blog_post.png" width="80%" alt="Blog Post Page (Desktop & Tablet)">
+
+## Blog Post Page (Mobile)
+<img src="docs/scr_blog_post_mobile.png" width="50%" alt="Blog Post Page (Mobile)">
+
+## Contact Page (Desktop & Tablet)
+<img src="docs/scr_contact.png" width="80%" alt="Contact Page (Desktop & Tablet)">
+
+## Contact Page (Mobile)
+<img src="docs/scr_contact_mobile.png" width="50%" alt="Contact Page (Mobile)">
+
 ## Dropdown Menu for Mobile Devices
-&nbsp;
-![Dropdown Menu](docs/scr_dropdown_menu.png)
-&nbsp;
+<img src="docs/scr_dropdown_menu.png" width="50%" alt="Dropdown Menu for Mobile Devices">
+
+
 # Target Audience
 
 As per the assignment brief "the target audience for the portfolio website is an employer looking to engage a developer and/or IT professional". Such an employer is likely to hold a senior position in a company either as a lead developer (technical team leader), project manager or a technical person who has moved up into a higher management role and has experience with recruitment. 
